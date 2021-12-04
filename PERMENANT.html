@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PERMENANT HOUSE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa");
+}
+function myFunction1(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+<style>
+
+div.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  
+}
+
+div.container {
+  padding: 10px;
+}
+.polaroid img {
+			width: 100%;
+			transition: 0.5s all ease-in-out;
+		}
+	
+		.polaroid:hover img {
+			transform: scale(0.75);
+		}
+ .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  color:#CC6697;
+}
+
+.fa:hover {
+  color: #CC003E;
+  
+}
+.details
+{
+color:red;
+}
+.buttoninfo {
+  background-color: #AB5656;
+  border: none;
+  color: white;
+  padding: 6px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttoninfo1 {
+  background-color: #E9C851;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#td,#table
+{
+border:2px solid black;
+}
+
+#add1
+{
+color:orange;
+background-color:#333;
+padding:10px;
+font-weight:700;
+font-family:garamond;
+}
+#add2
+{
+color:#FE8104;
+background-color:#333;
+padding:5px;
+}
+#imagerow
+{
+padding-right:70px;
+padding-bottom:70px;
+}
+
+:root{
+    --red:#ff5a3c;
+    --light-red:#f9edeb;
+}
+
+*{
+    font-family: 'garamond', Times New Roman;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background:#FCAE2E;
+    padding:1.5rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:#333;
+}
+
+header .logo span{
+    color:red;
+}
+
+header .navbar a{
+    color:#333;
+    font-size: 1.5rem;
+    padding:0 1rem;
+}
+
+header .navbar a:hover{
+    color:#FF0202;
+}
+
+
+#navigation1
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AB5656;
+}
+#navigation1 a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navigation1 a:hover {
+  background-color: #E9E96B;
+}
+
+</style>
+</head>
+<body>
+<center>
+<header>
+
+    <a href="#" class="logo"><span >Permenant</span>House</a>
+
+    <nav class="navbar">
+        <a href="Home">Home</a>
+        <a href="Rental Services">Rental Services</a>
+        <a href="Permenant House">Permenant House</a>
+        <a href="Contact Us">Contact Us</a>
+        <a href="About us">About Us</a>
+    </nav>
+
+
+</header>
+
+
+<table>
+<tr>
+<td id="imagerow">
+<div class="polaroid">
+<img src="https://media.istockphoto.com/photos/luxurious-beautiful-modern-villa-with-front-yard-garden-at-sunset-picture-id1283532082?b=1&k=20&m=1283532082&s=170667a&w=0&h=KxQ3cfMs-Xi7FL2TXfrgFbi9pwtBOdjSEc4-ufAeVlo=" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">SREENI VILLA</h3></p>
+<p id="add2"> D:NO:25 TIRUVALLUR, CHENNAI,T.N</p><br>
+
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>250YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$100,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div>
+<td id="imagerow">
+<div class="polaroid">
+<img src="https://www.archplanest.com/wp-content/uploads/2019/07/Simplex_House_Plan_09.jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">MY HOMES</h3></p>
+<p id="add2"> F:NO:92,CHARMINAR, HYDERABAD, TELENGANA </p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>220YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$80,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div><td id="imagerow">
+<div class="polaroid">
+<img src="https://www.bangaloreresale.in/wp-content/uploads/2016/06/Hiranandani-Villas-Night-View.jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">SREE MEDOWS</h3></p>
+<p id="add2">F:NO:121, GANDHI ROAD, BANGLORE, KARNATAKA</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>100YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$50,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div>
+<br><br><br>
+<tr>
+<td id="imagerow">
+<div class="polaroid">
+<img src="https://i.pinimg.com/originals/f3/db/15/f3db15fa85df7bd87f8034cb3f10e24c.jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">KALYAN MEDOWS</h3></p>
+<p id="add2">F:NO:901 BHEENLI ROAD, VIZAG, A.P</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>300YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$150,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div><td id="imagerow">
+<div class="polaroid">
+<img src="https://e8rbh6por3n.exactdn.com/sites/uploads/2020/05/villa-la-gi-thumbnail.jpg?strip=all&lossy=1&ssl=1 " alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">LAL VILLA</h3></p>
+<p id="add2"> D:NO:250 GANDHI ROAD, DELHI, NEW DELHI</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>80YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i> $45,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div><td id="imagerow">
+<div class="polaroid">
+<img src="http://cdn.home-designing.com/wp-content/uploads/2020/04/unique-house-design.jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i>
+<i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">HOMABLE FLATS</h3></p>
+<p id="add2">F:NO25 BENZ CIRCLE, VIJAYAWADA, A.P</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>500YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$130,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div>
+</tr>
+<tr>
+<br><br><br>
+<td id="imagerow">
+<div class="polaroid">
+<img src="https://img.vistarooms.com/gallery/aao7l6mpxalohfrjusvz.jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i><i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">MOON VILLA'S</h3></p>
+<p id="add2">F:NO:01 NAMPALLY, HYDERABAD, TELENGANA</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>50YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$120,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div><td id="imagerow">
+<div class="polaroid">
+<img src="https://r1imghtlak.mmtcdn.com/cc605898b64d11eb830f0242ac11000a.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i><i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">GREENERY GARDENS</h3></p>
+<p id="add2">D:NO:1234 KUKATPALLY, HYDERABAD, TELENGANA.</p><br>
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>510YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>$250,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</div>
+</td>
+</div><td id="imagerow">
+<div class="polaroid">
+<img src="https://www.homepictures.in/wp-content/uploads/2019/12/612-Square-Feet-2-Bedroom-Single-Floor-Modern-House-and-Plan-780x470.jpeg" alt="Norway" style="width:100%">
+<div class="container">
+<p>
+<i onclick="myFunction1(this)" class="fa fa-heart" style="padding-left:10px;font-size:30px;"></i><i onclick="myFunction1(this)" class="fa fa-comment" style="padding-left:25px;font-size:35px;" ></i><i onclick="myFunction1(this)" class="fa fa-phone-square"  style="padding-left:25px;font-size:32px;"></i>
+</p>
+<p ><h3 id="add1">VENKAT APARTMENTS</h3></p>
+<p id="add2">F:NO:210 MARUTI NAGAR, TIRUPATI, A.P</p><br>
+
+<table id="table">
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf1fe;</i>600YDS</p></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf0d6;</i>400,000</P></td>
+<td id="td"><p><i style="font-size:24px" class="fa">&#xf041;</i>INDIA</p></td>
+</table>
+<br>
+
+<a href="info.html"><input class="buttoninfo" type="button" value="Info"></a><a href="contact.html"><input class="buttoninfo1" type="button" value="Contact"></a>
+</td>
+</div>
+</tr>
+
+</table>
+<footer>
+    <h3 >
+      <center>
+        ABOUT US :<BR><BR><nav id="navigation1">
+ <a href="https://www.google.com">HOUSES IN ABROAD</a>  
+ <a href="https://www.google.com">VACTIONAL TOUR'S</a> 
+ <a href="https://www.google.com">PG FOR SOFTWARE EMPLOYEES</a>
+ <a href="https://www.google.com">CONTACT US</a>  
+ <a href="https://www.google.com">ABOUT US</a>
+ 
+ </nav>
+        </center>
+      
+    </h3>
+   
+</footer>
+</center> 
+</body>
+</html>
